@@ -9,7 +9,7 @@ const Details = props => {
   }, []);
 
   const fetchPokemonDetails = () => {
-    const {state} = props.navigation;
+    const {state} = props.state;
     fetch(`https://pokeapi.co/api/v2/pokemon/${state.params.pokemon}`)
       .then(res => res.json())
       .then(details => setDetails(details));

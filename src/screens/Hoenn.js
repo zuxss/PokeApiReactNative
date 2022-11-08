@@ -1,11 +1,11 @@
 import React from 'react';
 import {View} from 'react-native';
-import JohtoPoke from '../pokeList/JohtoList';
+import HoennPoke from '../pokeList/HoennList';
 
 export default function JohtoList({navigation}) {
   return (
     <View>
-      <JohtoPoke></JohtoPoke>
+      <HoennPoke></HoennPoke>
     </View>
   );
 }
